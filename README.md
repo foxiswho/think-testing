@@ -16,7 +16,7 @@ https://packagist.org/packages/foxiswho/think-testing
 
 先执行
 ```angular2html
-composer require foxiswho/think-testing=v2.0.8
+composer require foxiswho/think-testing=2.0.9
 ```
 等待拉取报如下错误
 ```SHELL
@@ -39,5 +39,5 @@ vendor/topthink/think-installer/src/ThinkTesting.php
 
 最后调用
 ```SHELL
-composer require foxiswho/think-testing=v2.0.8
+composer require foxiswho/think-testing=2.0.9
 ```
