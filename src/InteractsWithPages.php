@@ -16,10 +16,10 @@ use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\DomCrawler\Form;
 use think\File;
 use think\helper\Str;
-use think\Request;
+use think\facade\Request;
 use think\response\Redirect;
 use PHPUnit\Framework\ExpectationFailedException;
-use think\Url;
+use think\facade\Url;
 
 trait InteractsWithPages
 {

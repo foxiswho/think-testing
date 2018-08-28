@@ -17,8 +17,9 @@ use PHPUnit\Util\Blacklist as PHPUnit_Util_Blacklist;
 use think\console\Command;
 use think\console\Input;
 use think\console\Output;
+use think\facade\App;
 use think\Loader;
-use think\Session;
+use think\facade\Session;
 
 class Test extends Command
 {
@@ -30,9 +31,10 @@ class Test extends Command
     public function execute(Input $input, Output $output)
     {
         //注册命名空间
-        Loader::addNamespace('tests', ROOT_PATH . 'tests');
+        Loader::addNamespace('tests', App::getRootPath() . 'tests');
 
         Session::init();
+
         $argv = $_SERVER['argv'];
         array_shift($argv);
         array_shift($argv);

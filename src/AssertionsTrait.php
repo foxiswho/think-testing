@@ -12,8 +12,8 @@ namespace think\testing;
 
 use think\response\View;
 use PHPUnit\Framework\Assert as PHPUnit;
-use think\Session;
-use think\Url;
+use think\facade\Session;
+use think\facade\Url;
 
 trait AssertionsTrait
 {

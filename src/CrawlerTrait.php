@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 namespace think\testing;
 
-use think\App;
-use think\Config;
-use think\Cookie;
+use think\facade\App;
+use think\facade\Config;
+use think\facade\Cookie;
 use think\Error;
 use think\Exception;
 use think\helper\Arr;
 use think\helper\Str;
-use think\Request;
-use think\Response;
+use think\facade\Request;
+use think\facade\Response;
 
 trait CrawlerTrait
 {

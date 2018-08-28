@@ -11,7 +11,7 @@
 namespace think\testing;
 
 use think\Db;
-use think\Session;
+use think\facade\Session;
 
 trait ApplicationTrait
 {
