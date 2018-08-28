@@ -9,11 +9,11 @@
         }
     ],
     "require": {
-        "topthink/think-installer": "^2.0.0",
+        "topthink/think-installer": "^2.0.*",
         "topthink/framework": "5.1.*",
-        "topthink/think-helper": "~1.0",
-        "symfony/dom-crawler": "4.1.1",
-        "phpunit/phpunit": "7.2.7"
+        "topthink/think-helper": "~1.*",
+        "symfony/dom-crawler": "4.1.*",
+        "phpunit/phpunit": "7.2.*"
     },
     "config": {
         "bin-dir":"bin",
